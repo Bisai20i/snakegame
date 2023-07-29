@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.body{
+    background: url("snake.png");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+
+#board{
+    background: linear-gradient(rgb(10, 22, 156), rgb(172, 10, 158));
+    width: 90vmin;
+    height: 90vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows:repeat(20,1fr);
+    grid-template-columns: repeat(20,1fr);
+    background-repeat: no-repeat;
+}
+.snakehead{
+    background: linear-gradient(orange,rgb(255, 6, 2));
+    border-radius:10px;
+    border: 1px solid black;
+    
+}
+.snake{
+    background: rgb(34, 5, 196);
+    border: 1px solid black;
+    border-radius:10px;
+    height: 90%;
+    width:90%;
+    align-self: center;
+    margin-left: 1px;
+}
+.food{
+    background: linear-gradient(red,darkorange);
+    border:1px solid orange;
+    border-radius:15px;
+}
+.score{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -400px;
+    margin-left:50px;
+    
+}
+.score .btn{
+    height:50px;
+    width: 50px;
+    font-size:20px;
+    font-weight: bold;
+    
+}
+.level{
+    font-size: larger;
+    font-weight: bold;
+    margin-right: 100px;
+}
+.playbtn{
+    
+    background-color: gray;
+    width: auto;
+    height: auto;
+    margin-left: 40%;
+
+}
+.pbtn{
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: auto;
+    transition: .5s;
+
+}
+.playbtn .pbtn:hover{
+    background-color: blue;
+}
+.controlbtn1{
+    margin-left: 60px;
+}
+.controlbtn2{
+    margin-left: 30px;
+}
+.controlbtn4{
+    margin-left: 50px;
+}
