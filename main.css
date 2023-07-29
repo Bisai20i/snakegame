@@ -26,8 +26,8 @@
 }
 .snakehead{
     background: linear-gradient(orange,rgb(255, 6, 2));
-    border-radius:10px;
-    border: 1px solid black;
+    border-radius:15px;
+    border: 2px solid black;
     
 }
 .snake{
@@ -58,38 +58,4 @@
     font-size:20px;
     font-weight: bold;
     
-}
-.level{
-    font-size: larger;
-    font-weight: bold;
-    margin-right: 100px;
-}
-.playbtn{
-    
-    background-color: gray;
-    width: auto;
-    height: auto;
-    margin-left: 40%;
-
-}
-.pbtn{
-    font-size: 22px;
-    font-weight: bold;
-    border-radius: 5px;
-    border: 2px solid black;
-    padding: auto;
-    transition: .5s;
-
-}
-.playbtn .pbtn:hover{
-    background-color: blue;
-}
-.controlbtn1{
-    margin-left: 60px;
-}
-.controlbtn2{
-    margin-left: 30px;
-}
-.controlbtn4{
-    margin-left: 50px;
 }
